@@ -19,11 +19,7 @@ export default class App extends Component {
     if (!search) this.pushLocationInHistory(this.step);
 
     const { item } = this.getItemPramsFromProps(this.props);
-    if (item > publications.length) {
-      this.pushLocationInHistory(publications.length);
-      return;
-    }
-    if (item < this.step) {
+    if (item < this.step || item > publications.length) {
       this.pushLocationInHistory(this.step);
       return;
     }
