@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "gh-pages": "^2.1.1",
-    "qs": "^6.9.1",
+    "qs": "^6.9.7",
     "react": "16.10.2",
     "react-dom": "16.10.2",
     "react-router-dom": "^5.1.2",
